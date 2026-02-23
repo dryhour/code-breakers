@@ -15,3 +15,10 @@ This is a program that allows you to encrypt and decrypt messages into text file
 3. ./program <in> <out> rot <shift>
 4. ./program <in> <out> vigenere <key> <encode/decode>
 ```
+Example:
+```bash
+g++ main.cpp -o cipher
+INPUT FILE: "Hello!"
+./program input.txt output.txt cipher 3 encode
+OUTPUT FILE: "khoor!"
+```
